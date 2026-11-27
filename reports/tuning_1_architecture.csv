@@ -1,0 +1,5 @@
+model,batch_size,learning_rate,dropout,parameters,best_val_acc,best_epoch,epochs_run,final_train_acc,final_val_acc,seconds
+deeper,64,0.001,0.25,1304746,0.8074,27,30,0.824,0.8046,231
+wider,64,0.001,0.25,540234,0.7994,30,30,0.8087,0.7994,128
+wider_deeper,64,0.001,0.25,1573066,0.7976,29,30,0.819,0.7956,422
+baseline,64,0.001,0.25,356810,0.7866,29,30,0.8015,0.782,95

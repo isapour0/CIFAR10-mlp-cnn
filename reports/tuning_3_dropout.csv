@@ -1,0 +1,4 @@
+model,batch_size,learning_rate,dropout,parameters,best_val_acc,best_epoch,epochs_run,final_train_acc,final_val_acc,seconds
+dropout_0.3,64,0.0005,0.3,1304746,0.8286,31,36,0.9004,0.8206,219
+dropout_0.4,64,0.0005,0.4,1304746,0.8212,22,27,0.8311,0.8112,161
+dropout_0.2,64,0.0005,0.2,1304746,0.8192,17,22,0.9126,0.809,133

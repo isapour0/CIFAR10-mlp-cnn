@@ -1,0 +1,6 @@
+stage,trial,config,params,best_val_acc,best_epoch,val_loss_at_best,final_train_acc,final_val_acc,seconds
+architecture,baseline,"{'filters': (32, 64, 128), 'conv_per_block': 1, 'dense_units': 128, 'batch_size': 64}",356810,0.7222,13,1.1526,0.9712,0.706,0
+architecture,small,"{'filters': (16, 32, 64), 'conv_per_block': 1, 'dense_units': 128, 'batch_size': 64}",156074,0.7068,10,0.9234,0.9232,0.6562,76
+architecture,wider,"{'filters': (64, 128, 256), 'conv_per_block': 1, 'dense_units': 128, 'batch_size': 64}",896522,0.7398,5,0.7998,0.9789,0.7348,161
+architecture,deeper,"{'filters': (32, 64, 128), 'conv_per_block': 2, 'dense_units': 128, 'batch_size': 64}",550570,0.7596,24,1.5228,0.9692,0.7538,163
+architecture,wider_deeper,"{'filters': (64, 128, 256), 'conv_per_block': 2, 'dense_units': 128, 'batch_size': 64}",1671114,0.7812,29,1.5337,0.9771,0.7694,298

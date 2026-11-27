@@ -1,0 +1,4 @@
+model,batch_size,learning_rate,dropout,parameters,best_val_acc,best_epoch,epochs_run,final_train_acc,final_val_acc,seconds
+patience_5,64,0.001,0.3,550570,0.8137,36,41,0.844,0.8015,210
+patience_8,64,0.001,0.3,550570,0.8095,28,36,0.8451,0.8051,191
+patience_3,64,0.001,0.3,550570,0.7877,14,17,0.7949,0.7857,89
